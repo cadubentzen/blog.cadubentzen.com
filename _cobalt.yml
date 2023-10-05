@@ -1,0 +1,6 @@
+site:
+  title: Carlos Bentzen
+  description: Carlos Bentzen's website
+  base_url: http://cadubentzen.com
+posts:
+  rss: rss.xml
