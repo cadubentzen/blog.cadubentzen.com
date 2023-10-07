@@ -1,8 +1,0 @@
-site:
-  title: Soneca de Pudim
-  base_url: https://blog.cadubentzen.com
-posts:
-  rss: rss.xml
-ignore:
-  - justfile
-  - nginx
