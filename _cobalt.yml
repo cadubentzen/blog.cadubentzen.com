@@ -1,8 +1,8 @@
 site:
-  title: Carlos Bentzen
-  description: Carlos Bentzen's website
-  base_url: https://cadubentzen.com
+  title: Soneca de Pudim
+  base_url: https://blog.cadubentzen.com
 posts:
   rss: rss.xml
 ignore:
   - justfile
+  - nginx

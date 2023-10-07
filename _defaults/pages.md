@@ -1,10 +1,7 @@
 ---
-layout: default.liquid
+layout: post.liquid
 ---
-## Blog!
 
-{% for post in collections.posts.pages %}
-#### {{post.title}}
+# This is our first Post!
 
-[{{ post.title }}]({{ post.permalink }})
-{% endfor %}
+Welcome to the first post ever on cobalt.rs!
