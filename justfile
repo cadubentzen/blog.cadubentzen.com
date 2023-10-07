@@ -1,8 +1,11 @@
 build:
     cobalt build
 
-deploy: build
-    rsync -avz --delete _site/ cadubentzen@ssh.cadubentzen.com:/var/www/cadubentzen.com
+deploy: (deploy-base "ssh.cadubentzen.com")
+deploy-local: (deploy-base "raspberrypi")
+
+deploy-base target: build
+    rsync -avz --delete _site/ cadubentzen@{{target}}:/var/www/cadubentzen.com
 
 serve:
     cobalt serve --drafts
