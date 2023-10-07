@@ -11,7 +11,7 @@ One goal here is to include a picture of him at the end of every post. 🐱
 
 Here's this blog's favicon in high resolution:
 
-![Pudim napping](images/pudim/about.jpg)
+<img class="photo" src="/images/pudim/about.jpg" alt="Cat napping" />
 
 -----
 
