@@ -13,8 +13,6 @@
         <h4>
           {% if page.published_date %}
             {{ page.published_date | split: " " | first }}
-          {% else %}
-            Draft
           {% endif %}
         </h4>
         {{ page.content }}
