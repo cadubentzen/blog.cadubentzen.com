@@ -6,3 +6,4 @@ posts:
 ignore:
   - justfile
   - nginx
+  - README.md
